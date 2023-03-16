@@ -270,15 +270,9 @@ class PJBTeamTrackerCard extends LitElement {
     timeouts[team] = stateObj.attributes.team_timeouts;
     timeouts[oppo] = stateObj.attributes.opponent_timeouts;
 
-    var timeoutsDisplay = 'inline';
-    if (this._config.show_timeouts == false) {
-      timeoutsDisplay = 'none';
-    }
+    var timeoutsDisplay = 'inline'; if (this._config.show_timeouts == false) { timeoutsDisplay = 'none'; }
 
-    var rankDisplay = 'inline';
-    if (this._config.show_rank == false) {
-      rankDisplay = 'none';
-    }
+    var rankDisplay = 'inline'; if (this._config.show_rank == false) { rankDisplay = 'none'; }
 
     var notFoundTerm1 = stateObj.attributes.team_abbr;
     var notFoundTerm2 = "NOT_FOUND"
@@ -349,7 +343,7 @@ if (sport.includes("hockey")) {
       barLabel[oppo] = t.translate("volleyball.oppoBarLabel", "%s", String(stateObj.attributes.opponent_score));
       timeouts[team] = stateObj.attributes.team_sets_won;
       timeouts[team] = stateObj.attributes.opponent_sets_won;
-      timeoutsDisplay = 'inline';
+      timeoutsDisplay = 'inline'; if (this._config.show_timeouts == false) { timeoutsDisplay = 'none'; }
     }
 
 //
