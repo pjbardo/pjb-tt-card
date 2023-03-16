@@ -1,6 +1,6 @@
 {
-  "name": "Team Tracker Card",
-  "filename": "ha-teamtracker-card.js",
+  "name": "PJB Custom Team Tracker Card",
+  "filename": "pjb-tt-card.js",
   "render_readme": true,
   "homeassistant": "0.95.4",
   "country": ["US"]
