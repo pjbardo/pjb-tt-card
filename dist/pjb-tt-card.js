@@ -1,7 +1,7 @@
 import { html, LitElement } from "https://unpkg.com/lit?module";
 import { Translator } from "./localize/translator.js";
 
-class TeamTrackerCard extends LitElement {
+class PJBTeamTrackerCard extends LitElement {
 //
 // Trigger the UI Card Editor from Card Picker
 //
@@ -855,7 +855,7 @@ if (sport.includes("hockey")) {
   }
 }
 
-customElements.define("teamtracker-card", TeamTrackerCard);
+customElements.define("pjb-tt-card", PJBTeamTrackerCard);
 
 //=====
 
@@ -864,8 +864,8 @@ customElements.define("teamtracker-card", TeamTrackerCard);
 //
 window.customCards = window.customCards || []; // Create the list if it doesn't exist. Careful not to overwrite it
 window.customCards.push({
-  type: "teamtracker-card",
-  name: "Team Tracker Card",
+  type: "pjb-tt-card",
+  name: "Custom Team Tracker Card",
   preview: false,
   description: "Card to display the ha-teamtracker sensor",
 });
