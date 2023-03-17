@@ -275,9 +275,15 @@ class PJBTeamTrackerCard extends LitElement {
     timeouts[team] = stateObj.attributes.team_timeouts;
     timeouts[oppo] = stateObj.attributes.opponent_timeouts;
 
-    var timeoutsDisplay = 'inline'; if (this._config.show_timeouts == false) { timeoutsDisplay = 'none'; }
+    var timeoutsDisplay = 'inline'; 
+    if (this._config.show_timeouts == false) { 
+      timeoutsDisplay = 'none'; 
+    }
 
-    var rankDisplay = 'inline'; if (this._config.show_rank == false) { rankDisplay = 'none'; }
+    var rankDisplay = 'inline'; 
+    if (this._config.show_rank == false) { 
+      rankDisplay = 'none'; 
+    }
 
     var notFoundTerm1 = stateObj.attributes.team_abbr;
     var notFoundTerm2 = "NOT_FOUND"
@@ -310,8 +316,14 @@ class PJBTeamTrackerCard extends LitElement {
       in2 = t.translate("baseball.gameStat2", "%s", String(stateObj.attributes.strikes));
       in0 = t.translate("baseball.gameStat3", "%s", String(stateObj.attributes.outs));
       outsDisplay = 'inherit';
+      if (this._config.show_outs == false) { 
+        outsDisplay = 'none'; 
+      }
       timeoutsDisplay = 'none';
       basesDisplay = 'inherit';
+      if (this._config.show_bases == false) { 
+        basesDisplay = 'none'; 
+      }
     }
 
 //
@@ -348,7 +360,10 @@ if (sport.includes("hockey")) {
       barLabel[oppo] = t.translate("volleyball.oppoBarLabel", "%s", String(stateObj.attributes.opponent_score));
       timeouts[team] = stateObj.attributes.team_sets_won;
       timeouts[team] = stateObj.attributes.opponent_sets_won;
-      timeoutsDisplay = 'inline'; if (this._config.show_timeouts == false) { timeoutsDisplay = 'none'; }
+      timeoutsDisplay = 'inline'; 
+      if (this._config.show_timeouts == false) { 
+        timeoutsDisplay = 'none'; 
+      }
     }
 
 //
@@ -393,6 +408,9 @@ if (sport.includes("hockey")) {
       title = title || stateObj.attributes.event_name
 
       timeoutsDisplay = 'inline';
+      if (this._config.show_timeouts == false) { 
+        timeoutsDisplay = 'none'; 
+      }
     }
 
 
