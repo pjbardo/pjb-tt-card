@@ -267,6 +267,8 @@ class PJBTeamTrackerCard extends LitElement {
     var basesDisplay = 'none';
     var barDisplay = 'inherit'; if (this._config.show_bar == false) { barDisplay = 'none'; }
     var barWrapDisplay = "flex"; if (this._config.show_bar == false) { barWrapDisplay = 'none'; }
+    barDisplay = 'none';
+    barWrapDisplay = 'none';
     timeouts[team] = stateObj.attributes.team_timeouts;
     timeouts[oppo] = stateObj.attributes.opponent_timeouts;
 
