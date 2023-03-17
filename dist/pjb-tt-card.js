@@ -586,7 +586,7 @@ if (sport.includes("hockey")) {
           .opponent-bg { opacity: 0.08; position: absolute; top: -30%; right: -20%; width: 58%; z-index: 0; }
           .card-content { display: flex; justify-content: space-evenly; align-items: center; text-align: center; position: relative; z-index: 99; }
           .team { text-align: center; width: 35%;}
-          .team img { max-width: 90px; background-color: white; }
+          .team img { max-width: 90px; filter: drop-shadow(5px 0 0 white) drop-shadow(0 5px 0 white) drop-shadow(-5px 0 0 white) drop-shadow(0 -5px 0 white); }
           .circle { display:${initialsDisplay}; width: 90px; height: 90px; padding: 10px; line-height: 90px; border: 2px solid gray; border-radius: 50%; font-size: 40px; color: white; text-align: center; background: black }
           .score { font-size: ${scoreSize}; text-align: center; line-height: 1; }
           .score1op { opacity: ${scoreOp[1]}; }
@@ -634,7 +634,7 @@ if (sport.includes("hockey")) {
             .opponent-bg { opacity: 0.08; position:absolute; top: -20%; right: -20%; width: 58%; z-index: 0; }
             .card-content { display: flex; justify-content: space-evenly; align-items: center; text-align: center; position: relative; z-index: 99; }
             .team { text-align: center; width:35%; }
-            .team img { max-width: 90px; background-color: white; }
+            .team img { max-width: 90px; filter: drop-shadow(5px 0 0 white) drop-shadow(0 5px 0 white) drop-shadow(-5px 0 0 white) drop-shadow(0 -5px 0 white); }
             .circle { display:${initialsDisplay}; width: 90px; height: 90px; padding: 10px; line-height: 90px; border: 2px solid gray; border-radius: 50%; font-size: 40px; color: white; text-align: center; background: black }
             .possession, .possession1, .possession2 { font-size: 2.5em; text-align: center; opacity: 0; font-weight:900; }
             .possession1 {opacity: ${possessionOp[1]} !important; }
@@ -754,7 +754,7 @@ if (sport.includes("hockey")) {
             .opponent-bg { opacity: 0.08; position:absolute; top: -20%; right: -20%; width: 58%; z-index: 0; }
             .card-content { display: flex; justify-content: space-evenly; align-items: center; text-align: center; position: relative; z-index: 99; }
             .team { text-align: center; width: 35%; }
-            .team img { max-width: 90px; background-color: white; }
+            .team img { max-width: 90px; filter: drop-shadow(5px 0 0 white) drop-shadow(0 5px 0 white) drop-shadow(-5px 0 0 white) drop-shadow(0 -5px 0 white); }
             .circle { display:${initialsDisplay}; width: 90px; height: 90px; padding: 10px; line-height: 90px; border: 2px solid gray; border-radius: 50%; font-size: 40px; color: white; text-align: center; background: black }
             .name { font-size: 1.4em; margin-bottom: 4px; }
             .rank { font-size:0.8em; display:${rankDisplay}; }
@@ -820,7 +820,7 @@ if (sport.includes("hockey")) {
           .team-bg { opacity: 0.08; position: absolute; top: -20%; left: -30%; width: 75%; z-index: 0; }
           .card-content { display: flex; justify-content: space-evenly; align-items: center; text-align: center; position: relative; z-index: 99; }
           .team { text-align: center; width: 50%; }
-          .team img { max-width: 90px; background-color: white; }
+          .team img { max-width: 90px; filter: drop-shadow(5px 0 0 white) drop-shadow(0 5px 0 white) drop-shadow(-5px 0 0 white) drop-shadow(0 -5px 0 white); }
           .name { font-size: 1.6em; margin-bottom: 4px; }
           .line { height: 1px; background-color: var(--primary-text-color); margin:10px 0; }
           .bye { font-size: 1.8em; text-align: center; width: 50%; }
@@ -848,7 +848,7 @@ if (sport.includes("hockey")) {
           .team-bg { opacity: 0.08; position:absolute; top: -20%; left: -20%; width: 58%; z-index: 0; }
           .card-content { display: flex; justify-content: space-evenly; align-items: center; text-align: center; position: relative; z-index: 99; }
           .team { text-align: center; width: 35%; }
-          .team img { max-width: 90px; background-color: white; }
+          .team img { max-width: 90px; filter: drop-shadow(5px 0 0 white) drop-shadow(0 5px 0 white) drop-shadow(-5px 0 0 white) drop-shadow(0 -5px 0 white); }
           .gameday { font-size: 1.4em; line-height: 1.2em; text-align: center; width: 100%; margin-bottom: 4px; }
         </style>
         <ha-card>
