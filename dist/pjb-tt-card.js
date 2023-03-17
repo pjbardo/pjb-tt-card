@@ -595,7 +595,7 @@ if (sport.includes("hockey")) {
           .name { font-size: 1.4em; margin-bottom: 4px; }
           .rank { font-size:0.8em; display: ${rankDisplay}; }
           .line { height: 1px; background-color: var(--primary-text-color); margin:10px 0; }
-          .status { font-size: 3em; text-align: center; }
+          .status { font-size: 2.5em; text-align: center; }
         </style>
         <ha-card>
           <div class="card">
@@ -654,7 +654,7 @@ if (sport.includes("hockey")) {
             .on-second { opacity: ${onSecondOp}; display: inline-block; }
             .on-third { opacity: ${onThirdOp}; display: inline-block; }
             .pitcher { opacity: 0.0; display: inline-block; }
-            .status { text-align:center; font-size:3em; font-weight: 700; }
+            .status { text-align:center; font-size:2.5em; font-weight: 700; }
             .sub1 { font-weight: 700; font-size: 1.2em; margin: 6px 0 2px; }
             .sub1, .sub2, .sub3 { display: flex; justify-content: space-between; align-items: center; margin: 2px 0; }
             .last-play { font-size: 1.2em; width: 100%; white-space: nowrap; overflow: hidden; box-sizing: border-box; }
@@ -662,7 +662,7 @@ if (sport.includes("hockey")) {
             @keyframes slide { 0%   { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
             .clock { text-align: center; font-size: 1.4em; }
             .down-distance { text-align: right; }
-            .play-clock { font-size: 1.4em; text-align: center; }
+            .play-clock { font-size: 2.5em; text-align: center; }
             .outs { text-align: center; display: ${outsDisplay}; }
             .bar-text { text-align: center; display: ${barDisplay}; }
             .bar-flex { width: 100%; display: flex; justify-content: center; margin-top: 4px; }
